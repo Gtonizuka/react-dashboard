@@ -10,6 +10,10 @@ import BasicRevComponent from "../BasicRevComponent/BasicRevComponent";
 import CustomerPlatformComponent from "../CustomerPlaformComponent/CustomerPlatformComponent";
 import PaymentTypeComponent from "../PaymentTypeComponent/PaymentTypeComponent";
 
+import AccountBalanceWalletIcon from '@material-ui/icons/AccountBalanceWallet';
+import DevicesIcon from '@material-ui/icons/Devices';
+import PaymentIcon from '@material-ui/icons/Payment';
+
 const BodyComponent = () => {
   const [applicationData, setApplicationData] = useState({
     ordersTotal: 0,
@@ -105,33 +109,41 @@ const BodyComponent = () => {
 
   return (
     <div className="container">
-      <header className="App-header">
-        <h1>January 2020 metrics</h1>
-        {AppData.days.map(data => {
-          monthTotal = monthTotal + data.ordersTotal;
-        })}
-        <h2>Total number of orders for January 2020: {monthTotal}</h2>
-      </header>
+      <label>
+        <span className="datepicker--label">Select date:</span>
       <DatePickerCustomComponent getCalendarDate={getCalendarDate} />
-      <h3>Data for: {dayOfTheMonth}</h3>
+      </label>
       <Router>
-        <div className="nav">
-          <ul className="nav__navbar">
-            <li>
-              <Link to="/">BasicRevComponent</Link>
-            </li>
-            <li>
-              <Link to="/customer">CustomerPlatformComponent</Link>
-            </li>
-            <li>
-              <Link to="/payment">PaymentTypeComponent</Link>
-            </li>
-          </ul>
+        <div className="row-container">
+        <div className="row no-gutters">
+          <div className="col"> 
+          <span className="nav-item">
+              <Link to="/"><AccountBalanceWalletIcon /> Basic Revenue</Link>
+          </span>
+            </div>
+          <div className="col"> <span className="nav-item"><Link to="/customer"><DevicesIcon/> Customer Platform</Link></span></div>
+          <div className="col"> <span className="nav-item"><Link to="/payment"><PaymentIcon /> Payments</Link></span></div>
+        </div>
+        </div>
+
+        <div className="row">
+          <div className="col">
+            <div className="box">
+              <div className="box__inner">
+                  {AppData.days.map(data => {
+                monthTotal = monthTotal + data.ordersTotal;
+              })}
+              <p>Total Orders January 2020 </p><span className="number--big"> {monthTotal}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
           <Route
             path="/"
             exact
             render={props => (
-              <BasicRevComponent {...props} applicationData={applicationData} />
+              <BasicRevComponent {...props} applicationData={applicationData} dayOfTheMonth={dayOfTheMonth}/>
             )}
           />
           <Route
@@ -140,6 +152,7 @@ const BodyComponent = () => {
               <CustomerPlatformComponent
                 {...props}
                 applicationData={applicationData}
+                dayOfTheMonth={dayOfTheMonth}
               />
             )}
           />
@@ -149,6 +162,7 @@ const BodyComponent = () => {
               <PaymentTypeComponent
                 {...props}
                 applicationData={applicationData}
+                dayOfTheMonth={dayOfTheMonth}
               />
             )}
           />

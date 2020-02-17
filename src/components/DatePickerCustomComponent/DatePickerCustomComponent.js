@@ -2,10 +2,11 @@ import React, { useState } from "react";
 
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import './DatePickerCustomComponent.scss'
 
 
 const DatePickerCustom = ({getCalendarDate}) => {
-    const [startDate, setStartDate] = useState(null);
+    const [startDate, setStartDate] = useState(new Date('1-1-2020'));
   return (
     <DatePicker
       selected={startDate}

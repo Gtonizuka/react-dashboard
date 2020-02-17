@@ -36,3 +36,114 @@
     transform: rotate(360deg);
   }
 }
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.row-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*
+  Reusable box component
+*/
+
+.box {
+  background-color: #fff;
+  height: 250px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+  .box__inner {
+    position: relative;
+    height: 100%;
+    p {
+      color: #7c7a7a;
+      font-size: 100;
+      font-weight: 300;
+      font-size: 1.8em;
+      margin: 0 0 0 10px;
+      padding: 10px;
+    }
+
+    .number--big {
+      color: #00c292;
+      font-weight: bold;
+      display: block;
+      font-size: 3.5em;
+      margin: 15px 0;
+    }
+  }
+}
+
+.box--large {
+  height: 500px;
+  svg {
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    width: 300px;
+    @media only screen and (min-width: 768px)  {
+      width: 150px;
+    }
+  }
+}
+
+.box__inner .number--big, .box__inner .pie-wrapper {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.box__inner .number--big {
+  color: #00c292;
+  font-weight: bold;
+  display: block;
+  font-size: 2.5em;
+  margin: 15px 0;
+}
+
+.box--pie__color {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  &.orange {
+    background: #E38627;
+  }
+  &.blue {
+    background: #1E90FF
+  }
+  &.green {
+    background: #50B711;
+  }
+  &.gray {
+    background: #AAAAAA;
+  }
+}
+
+.box--pie_label {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}

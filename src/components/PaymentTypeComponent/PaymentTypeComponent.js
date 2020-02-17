@@ -1,14 +1,26 @@
 import React from 'react';
 import './PaymentTypeComponent.scss';
 
+import BoxComponent from '../BoxComponent/BoxComponent'
+
 
 const PaymentTypeComponent = (props) => {
   return (
     <div>
-        <h1>PaymentTypeComponent</h1>
-        <h2>Paypal total: {props.applicationData.paypalSales}</h2>
-        <h2>ApplePay total: {props.applicationData.applePaySales}</h2>
-        <h2>Card total: {props.applicationData.cardSales}</h2>
+      <div className="row">
+        <div className="col">
+          <h2>Payment Statistics for {props.dayOfTheMonth}:</h2>
+        </div>
+        <div className="col-md-3">
+          <BoxComponent description={'Paypal'} number={props.applicationData.paypalSales}/> 
+        </div>
+        <div className="col-md-3">
+          <BoxComponent description={'ApplePay'} number={props.applicationData.applePaySales}/>  
+        </div>
+        <div className="col-md-3">
+          <BoxComponent description={'Card'} number={props.applicationData.cardSales}/> 
+        </div>
+      </div>
     </div>
   );
 }
