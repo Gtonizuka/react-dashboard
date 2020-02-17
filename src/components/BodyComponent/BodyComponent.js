@@ -20,10 +20,10 @@ const BodyComponent = () => {
     totalAmount: 0,
     desktopSales: 0,
     mobileSales: 0,
-    iOSSales: 0,
-    androidSales: 0,
-    windowsSales: 0,
-    macOSSales: 0,
+    iOS: 0,
+    android: 0,
+    windows: 0,
+    macOS: 0,
     paypalSales: 0,
     applePaySales: 0,
     cardSales: 0
@@ -74,10 +74,14 @@ const BodyComponent = () => {
       { desktop: 0, mobile: 0, android: 0 }
     );
 
-    const iOSSales = os.filter(el => el == "iOS").length;
-    const androidSales = os.filter(el => el == "android").length;
-    const windowsSales = os.filter(el => el == "windows").length;
-    const macOSSales = os.filter(el => el == "macOS").length;
+    const { iOS, android, windows, macOS } = os.reduce(
+      (r, el) => {
+        if (el in r) r[el]++;
+
+        return r;
+      },
+      { iOS: 0, android: 0, windows: 0, macOS: 0 }
+    );
 
     const paypalSales = paymentPlatform.filter(el => el == "paypal").length;
     const applePaySales = paymentPlatform.filter(el => el == "applePay").length;
@@ -89,10 +93,10 @@ const BodyComponent = () => {
       totalAmount,
       desktop,
       mobile,
-      iOSSales,
-      androidSales,
-      windowsSales,
-      macOSSales,
+      iOS,
+      android,
+      windows,
+      macOS,
       paypalSales,
       applePaySales,
       cardSales

@@ -47,12 +47,12 @@ const CustomerPlatformComponent = props => {
                   {
                     color: "#E38627",
                     title: "iOS",
-                    value: props.applicationData.iOSSales
+                    value: props.applicationData.iOS
                   },
                   {
                     color: "#1E90FF",
                     title: "Android",
-                    value: props.applicationData.androidSales
+                    value: props.applicationData.android
                   }
                 ]}
                 label
@@ -96,12 +96,12 @@ const CustomerPlatformComponent = props => {
                   {
                     color: "#50B711",
                     title: "Windows",
-                    value: props.applicationData.windowsSales
+                    value: props.applicationData.windows
                   },
                   {
                     color: "#AAAAAA",
                     title: "MacOS",
-                    value: props.applicationData.macOSSales
+                    value: props.applicationData.macOS
                   }
                 ]}
                 label
