@@ -2,7 +2,7 @@ import React from "react";
 import "./BasicRevComponent.scss";
 import "../../shared/progressBarCircle.scss";
 
-import BoxComponent from '../BoxComponent/BoxComponent'
+import BoxComponent from "../BoxComponent/BoxComponent";
 
 const BasicRevComponent = props => {
   return (
@@ -14,10 +14,16 @@ const BasicRevComponent = props => {
       </div>
       <div className="row">
         <div className="col-md-3">
-          <BoxComponent description={'Orders'} number={props.applicationData.ordersTotal}/> 
+          <BoxComponent
+            description={"Orders"}
+            number={props.applicationData.ordersTotal}
+          />
         </div>
         <div className="col-md-3">
-          <BoxComponent description={'Total Earnings'} number={`$${props.applicationData.totalAmount}`}/> 
+          <BoxComponent
+            description={"Total Earnings"}
+            number={`$${props.applicationData.totalAmount}`}
+          />
         </div>
         <div className="col-md-3">
           <div className="box">

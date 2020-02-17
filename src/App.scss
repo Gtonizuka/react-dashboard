@@ -99,13 +99,14 @@ h2 {
     display: block;
     background-color: white;
     width: 300px;
-    @media only screen and (min-width: 768px)  {
+    @media only screen and (min-width: 768px) {
       width: 150px;
     }
   }
 }
 
-.box__inner .number--big, .box__inner .pie-wrapper {
+.box__inner .number--big,
+.box__inner .pie-wrapper {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -127,18 +128,18 @@ h2 {
   width: 20px;
   height: 20px;
   margin: 0 10px;
-  border: 1px solid rgba(0, 0, 0, .2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   &.orange {
-    background: #E38627;
+    background: #e38627;
   }
   &.blue {
-    background: #1E90FF
+    background: #1e90ff;
   }
   &.green {
-    background: #50B711;
+    background: #50b711;
   }
   &.gray {
-    background: #AAAAAA;
+    background: #aaaaaa;
   }
 }
 

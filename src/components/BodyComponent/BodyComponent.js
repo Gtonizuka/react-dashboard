@@ -10,9 +10,9 @@ import BasicRevComponent from "../BasicRevComponent/BasicRevComponent";
 import CustomerPlatformComponent from "../CustomerPlaformComponent/CustomerPlatformComponent";
 import PaymentTypeComponent from "../PaymentTypeComponent/PaymentTypeComponent";
 
-import AccountBalanceWalletIcon from '@material-ui/icons/AccountBalanceWallet';
-import DevicesIcon from '@material-ui/icons/Devices';
-import PaymentIcon from '@material-ui/icons/Payment';
+import AccountBalanceWalletIcon from "@material-ui/icons/AccountBalanceWallet";
+import DevicesIcon from "@material-ui/icons/Devices";
+import PaymentIcon from "@material-ui/icons/Payment";
 
 const BodyComponent = () => {
   const [applicationData, setApplicationData] = useState({
@@ -111,29 +111,46 @@ const BodyComponent = () => {
     <div className="container">
       <label>
         <span className="datepicker--label">Select date:</span>
-      <DatePickerCustomComponent getCalendarDate={getCalendarDate} />
+        <DatePickerCustomComponent getCalendarDate={getCalendarDate} />
       </label>
       <Router>
         <div className="row-container">
-        <div className="row no-gutters">
-          <div className="col"> 
-          <span className="nav-item">
-              <Link to="/"><AccountBalanceWalletIcon /> Basic Revenue</Link>
-          </span>
+          <div className="row no-gutters">
+            <div className="col">
+              <span className="nav-item">
+                <Link to="/">
+                  <AccountBalanceWalletIcon /> Basic Revenue
+                </Link>
+              </span>
             </div>
-          <div className="col"> <span className="nav-item"><Link to="/customer"><DevicesIcon/> Customer Platform</Link></span></div>
-          <div className="col"> <span className="nav-item"><Link to="/payment"><PaymentIcon /> Payments</Link></span></div>
-        </div>
+            <div className="col">
+              {" "}
+              <span className="nav-item">
+                <Link to="/customer">
+                  <DevicesIcon /> Customer Platform
+                </Link>
+              </span>
+            </div>
+            <div className="col">
+              {" "}
+              <span className="nav-item">
+                <Link to="/payment">
+                  <PaymentIcon /> Payments
+                </Link>
+              </span>
+            </div>
+          </div>
         </div>
 
         <div className="row">
           <div className="col">
             <div className="box">
               <div className="box__inner">
-                  {AppData.days.map(data => {
-                monthTotal = monthTotal + data.ordersTotal;
-              })}
-              <p>Total Orders January 2020 </p><span className="number--big"> {monthTotal}</span>
+                {AppData.days.map(data => {
+                  monthTotal = monthTotal + data.ordersTotal;
+                })}
+                <p>Total Orders January 2020 </p>
+                <span className="number--big"> {monthTotal}</span>
               </div>
             </div>
           </div>
@@ -143,7 +160,11 @@ const BodyComponent = () => {
             path="/"
             exact
             render={props => (
-              <BasicRevComponent {...props} applicationData={applicationData} dayOfTheMonth={dayOfTheMonth}/>
+              <BasicRevComponent
+                {...props}
+                applicationData={applicationData}
+                dayOfTheMonth={dayOfTheMonth}
+              />
             )}
           />
           <Route
