@@ -1,0 +1,2773 @@
+{
+    "days": [
+        {
+            "date": "1-1-2020",
+            "ordersTotal": 197,
+            "orders": [
+                {
+                  "_id": "5e49652bcd6bd600fefc21b3",
+                  "price": 96,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b812b140ab9c5b3b7",
+                  "price": 17,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652becba4b304f306c7b",
+                  "price": 91,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b5d0b2988eeef9a15",
+                  "price": 40,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bc919910b1ebbc97d",
+                  "price": 88,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652bf7c3df57b2aaca7a",
+                  "price": 81,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b60ce120d919e1305",
+                  "price": 99,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b0d437e1680a7ac2f",
+                  "price": 79,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b073ac170580a12b8",
+                  "price": 22,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652beef65635d5061ca4",
+                  "price": 60,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b377a7087fe42b8e2",
+                  "price": 81,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b372be5f6cf15e242",
+                  "price": 72,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b2d26cdf5ad5d6bae",
+                  "price": 40,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bcb3b3b9e57406df9",
+                  "price": 50,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bd180b1e19e1c301d",
+                  "price": 38,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b27ca4fc0a3673a60",
+                  "price": 16,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652bc4bd7915b5254b77",
+                  "price": 97,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b4560903c3fef4e44",
+                  "price": 29,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b2df29a4c9022ae96",
+                  "price": 47,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b5b912f7e0ac39582",
+                  "price": 56,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bfc731c66e4e3e219",
+                  "price": 64,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b2f9ddf1076580958",
+                  "price": 96,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b1046889fd0d3f046",
+                  "price": 70,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b5cccd7750b9021d7",
+                  "price": 92,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b8b42780f6957df1b",
+                  "price": 85,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b9f72bc23096f3236",
+                  "price": 53,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b74e4da056332d230",
+                  "price": 14,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b92d8ba813aa6eec6",
+                  "price": 83,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b4cc5c4bcc1045972",
+                  "price": 78,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b4d308871228223fc",
+                  "price": 93,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b5cd6d4b76ada9d53",
+                  "price": 22,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652be799cc2fb7956ec0",
+                  "price": 76,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652bbe14181ed42a4deb",
+                  "price": 23,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b057e9cd6761e69c3",
+                  "price": 74,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b25139da452a22739",
+                  "price": 39,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b271b8934d08e0542",
+                  "price": 35,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b54d885e65c88cb38",
+                  "price": 23,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b8c371b9885318642",
+                  "price": 86,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bcb371b52ab60f6d0",
+                  "price": 80,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652bb0e9c6d021c413fb",
+                  "price": 19,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b0f4996ff05cd9a26",
+                  "price": 97,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b74f9dbb0ce143969",
+                  "price": 22,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652bb67363733e095121",
+                  "price": 43,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b5677b931472c4e92",
+                  "price": 89,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b4c540540ab7be16e",
+                  "price": 54,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bc401da6dbf024a20",
+                  "price": 16,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b2692a842aecc6794",
+                  "price": 64,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b42ba6329d371ca32",
+                  "price": 98,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652bd2451211d772d369",
+                  "price": 63,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b6d53f968fedf3a4b",
+                  "price": 46,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b68d489ade67f7c2b",
+                  "price": 27,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b69cbbd50733c6f0c",
+                  "price": 25,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b05c2248ada0081d3",
+                  "price": 83,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bcfa73a393452b2f1",
+                  "price": 39,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b173174a4f05406af",
+                  "price": 21,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b8d487522b8028990",
+                  "price": 77,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b3adf1ee8231983dc",
+                  "price": 56,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b63b3ed115a5d5650",
+                  "price": 52,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b027c488b4a4a6649",
+                  "price": 71,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652be8d97c8a6a74c2ea",
+                  "price": 29,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b2ee050faf1312fc4",
+                  "price": 73,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b600b3d66eb257529",
+                  "price": 52,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bb7f1785f4f42153b",
+                  "price": 81,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b432b84ff3ac722eb",
+                  "price": 75,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652bafb06152f1c70758",
+                  "price": 49,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652bb738bbb0b0328eb7",
+                  "price": 80,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652bb11a813f498061f7",
+                  "price": 18,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b6fbac14408580f7c",
+                  "price": 86,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bb07ba80bbd5130b6",
+                  "price": 53,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b215b213796fcb0be",
+                  "price": 26,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652ba5dfdbc9d57559d3",
+                  "price": 73,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652bbef5614d58e636a9",
+                  "price": 100,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652be51f88831f1b76f4",
+                  "price": 81,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b187a2280c3678aef",
+                  "price": 59,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b52f9d3d50f58c232",
+                  "price": 78,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b4091d500d8adb42e",
+                  "price": 42,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652ba7d3cd3891cfb422",
+                  "price": 82,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b28a751bda2ea0bec",
+                  "price": 40,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bf709be65a432827a",
+                  "price": 57,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652ba0914a02eed2dcd6",
+                  "price": 95,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b17ca5918fbd49424",
+                  "price": 38,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b11a0024347692961",
+                  "price": 17,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b319ae2ea1a7b45c4",
+                  "price": 65,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652bb91a6a48d8bc2ff2",
+                  "price": 76,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bd381ef2f624be838",
+                  "price": 32,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b3b472ec772a9d112",
+                  "price": 24,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b71e2def6be8c55c1",
+                  "price": 45,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b5e14a0d6f011c6a9",
+                  "price": 59,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652bebb6fd08930e7a37",
+                  "price": 36,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652b6de29077e68525be",
+                  "price": 61,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b140376ff6791e629",
+                  "price": 21,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652bae0022802b592b9c",
+                  "price": 71,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b5e49326b266d973a",
+                  "price": 81,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b59cc55888544d42d",
+                  "price": 19,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b8e8821e5d631b3ed",
+                  "price": 65,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b592fef76ca68c557",
+                  "price": 54,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652bb414eaad655c6a66",
+                  "price": 46,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49652b2f21a6d60a72d087",
+                  "price": 29,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49652bcbbbb23a0f540a88",
+                  "price": 76,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49652b69b4e6d88d363bdb",
+                  "price": 34,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f2d56fa62914e4cd4",
+                  "price": 28,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654fd19e20fb2ed7e962",
+                  "price": 65,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f93ba636d64a06b1f",
+                  "price": 13,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f897334b4caf66856",
+                  "price": 65,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f0943cecdfc86cbb6",
+                  "price": 89,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654fa341cb062fec0b36",
+                  "price": 98,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f06fc3b0d9b11054d",
+                  "price": 78,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654fd74ac7abc81ce54e",
+                  "price": 48,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654fe8bfac3f455d9989",
+                  "price": 92,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f5ecfe04c936170a9",
+                  "price": 83,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f61e23cce45816a92",
+                  "price": 84,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f998f65497993d6ac",
+                  "price": 22,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654fe542a8214053547a",
+                  "price": 22,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f210afba308dd56ac",
+                  "price": 91,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f45bc2aea56b54530",
+                  "price": 85,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654fc294502b9daf0640",
+                  "price": 43,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654fad4beb3f7f10818e",
+                  "price": 43,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654ff731e1a9546e05a3",
+                  "price": 58,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654fca429e9bd6a112f0",
+                  "price": 39,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654ff64bdb99ee41e175",
+                  "price": 17,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654fe3d7e5c2aa36359f",
+                  "price": 82,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654fd5c2a75c2ccdab63",
+                  "price": 70,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f1a494e3d3e587f2f",
+                  "price": 17,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654fed08b97d979857c5",
+                  "price": 84,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f802f4014461ada06",
+                  "price": 11,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654ff8967f0145d6d397",
+                  "price": 37,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f4cdd87364107de22",
+                  "price": 27,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f3457daad059507f9",
+                  "price": 99,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f5cda7aedee321892",
+                  "price": 37,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f4583d584315a664d",
+                  "price": 53,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654fa056f2ba73489b10",
+                  "price": 51,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654fe0d6ab308ad4475d",
+                  "price": 61,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654ff84abdc6bac53ab2",
+                  "price": 34,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654fc66f2e1df7dc096f",
+                  "price": 85,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f9d444ff7fa860039",
+                  "price": 88,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654fd1c210a4dfa14e3b",
+                  "price": 20,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f549db01db36d911a",
+                  "price": 60,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f63c7adde6148c4fd",
+                  "price": 61,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f269fb4f95438a55e",
+                  "price": 23,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654ffb1f464ffb70e5b9",
+                  "price": 77,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f14a313baa8a34eb2",
+                  "price": 48,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f0f7fbabcc979924e",
+                  "price": 95,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f8917ffb61607f36e",
+                  "price": 91,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f74509438972a7eed",
+                  "price": 77,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f1484c4dab6653554",
+                  "price": 96,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f14388f171a9fa735",
+                  "price": 91,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f7c62d2378da4d72a",
+                  "price": 96,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654fb27161765801217a",
+                  "price": 80,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654faafc979860dbd96f",
+                  "price": 56,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f7e13e2d77b2d0691",
+                  "price": 88,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654fc4b51f0b3161f7ac",
+                  "price": 39,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f7c952b8d89c29a64",
+                  "price": 28,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f9dc701d2caa0472a",
+                  "price": 42,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f7338584e0ca3b4a7",
+                  "price": 34,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f738a0f0014d524a2",
+                  "price": 88,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f2dc18cca1967e654",
+                  "price": 55,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f9863357b90890761",
+                  "price": 65,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f660755ae4a6598b8",
+                  "price": 61,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654fa8088cdd6e6fb0ad",
+                  "price": 80,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f20fb58f99e0d6ab7",
+                  "price": 55,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f97b30107ed76f179",
+                  "price": 79,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f73ae3d37497a8329",
+                  "price": 68,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f5fa0eade439ee8ad",
+                  "price": 64,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f9d02a987d751d94c",
+                  "price": 100,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f7d08b9c5756f6e8a",
+                  "price": 92,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f63e4c0e5c0c7e51b",
+                  "price": 37,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f56a1ad508c2d29c1",
+                  "price": 12,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654fb4cbd0c6da57b248",
+                  "price": 34,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f2bd235bfec6491d1",
+                  "price": 66,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f586532822d4e4b7a",
+                  "price": 38,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f3cdf36ed2276ddbe",
+                  "price": 92,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f4e762d419493334b",
+                  "price": 60,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f33892d49137d2538",
+                  "price": 59,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f40845f299d64d36e",
+                  "price": 34,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654fffd6b415c870eb6b",
+                  "price": 22,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f0be13e211165fcdd",
+                  "price": 78,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f679218429ecc5cdb",
+                  "price": 34,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654ff259e8027a13ca58",
+                  "price": 43,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f63577057dbc144d6",
+                  "price": 35,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f416cba8370ff767a",
+                  "price": 77,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f99972d8bc74ffff8",
+                  "price": 57,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654fd6a6f5066eec4504",
+                  "price": 54,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f8b6a695f0c395cd2",
+                  "price": 31,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f050d9de32460d857",
+                  "price": 43,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654fec2c3544b7eab4ad",
+                  "price": 64,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654fad9eea606c6b9c34",
+                  "price": 55,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654fb7612dbe77dd42e4",
+                  "price": 77,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f11a7630cb1f26448",
+                  "price": 13,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654fc17f61a6589a7743",
+                  "price": 81,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f1c39264e59e8b104",
+                  "price": 58,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f9920b94586d42c94",
+                  "price": 66,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f4100bf618e83a207",
+                  "price": 90,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49654f15438c09306b4c93",
+                  "price": 11,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f7a1370142d131082",
+                  "price": 44,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49654f7401db22723bae10",
+                  "price": 70,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f3fa807785cb7b1c3",
+                  "price": 39,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49654f2e1cbe0d50dca98a",
+                  "price": 16,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                }
+              ]
+        },
+        {
+            "date": "1-2-2020",
+            "ordersTotal": 75,
+            "orders": [
+                {
+                  "_id": "5e4965aa94191c4860480fd3",
+                  "price": 94,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aab69d521b49e1ac4a",
+                  "price": 44,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa6d05a02adb4e781e",
+                  "price": 69,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aaa83e817c4b7d7b7f",
+                  "price": 30,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa0adc8754e6979226",
+                  "price": 39,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa5dc1652350d6313a",
+                  "price": 16,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa7f66d17a3f87efb5",
+                  "price": 54,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aafc2e486b846191f3",
+                  "price": 95,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aaabb7fab4e935f942",
+                  "price": 100,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa56c21a53277516c7",
+                  "price": 31,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa0f1ef0383cc168fc",
+                  "price": 89,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aaf0ce8070fa3f7a8f",
+                  "price": 18,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa64f10ec341059848",
+                  "price": 44,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa866268cb75df0c46",
+                  "price": 85,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa0409b41e4437e66a",
+                  "price": 40,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aada6ee8b5135fbda7",
+                  "price": 74,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa3c2bda7db6617841",
+                  "price": 40,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa7a2ffb9381d28bff",
+                  "price": 32,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aad1268b478e0d77a8",
+                  "price": 41,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa46831011c28c3583",
+                  "price": 17,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aafa0b0698fcec6eae",
+                  "price": 14,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa6fd510d6722431fd",
+                  "price": 19,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa1c107955cd5980f1",
+                  "price": 27,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa26b876a16f5d73c4",
+                  "price": 96,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa44b8bd07e794de4c",
+                  "price": 86,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa4ec21c3067368a70",
+                  "price": 38,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aafe93528908e8d5b3",
+                  "price": 38,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aadb337392e9efd17b",
+                  "price": 81,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aaa18d6480380a295a",
+                  "price": 63,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa5096ee68979c83b9",
+                  "price": 96,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa6b449f9fc2fda600",
+                  "price": 39,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aaa969018bbabfdbf3",
+                  "price": 49,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aacd2ae4f8a3b7a076",
+                  "price": 32,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa89cd11a3c9ac0320",
+                  "price": 37,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa2e35c36d8b20275b",
+                  "price": 99,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aae45f2c8474e461d8",
+                  "price": 50,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa9e02b5da3f254fe7",
+                  "price": 66,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aad75fefb92707a649",
+                  "price": 65,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa07136f505035db7f",
+                  "price": 39,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa0b1acd4f74ed0b20",
+                  "price": 55,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa685e7f33d4c4a9a7",
+                  "price": 54,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aab3bb99c73e6438d0",
+                  "price": 23,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa8903c0220ad0b095",
+                  "price": 95,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa9980f7e039d24e3e",
+                  "price": 78,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa724ea1c4f5d65969",
+                  "price": 81,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa0f9812e82ec0a7b1",
+                  "price": 94,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa707f9647852cd3c4",
+                  "price": 14,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa72581f7af3862f51",
+                  "price": 38,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa03b6e4e150bd6a8f",
+                  "price": 69,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa0ff0b7099cf3c262",
+                  "price": 40,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa431cad103234eb9c",
+                  "price": 41,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa89626b3ebcbcb503",
+                  "price": 43,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aae2e695239faa1c31",
+                  "price": 47,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa7862206531c8582f",
+                  "price": 88,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa6732255c5ce50d80",
+                  "price": 41,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa875bc414622c8dbf",
+                  "price": 81,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa0ea4862ec6dd1265",
+                  "price": 85,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa025c753bf9f93a81",
+                  "price": 33,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aae1c3cece9ae5712b",
+                  "price": 54,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aaac76ecc7290dbe12",
+                  "price": 69,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa1cb1f09c5946687c",
+                  "price": 82,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aadad201996c2698cd",
+                  "price": 38,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa17b10635a809fd77",
+                  "price": 93,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aad2525e4c8b904123",
+                  "price": 63,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa31ed18a9f12c31fd",
+                  "price": 90,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa8638a96cf6275cb0",
+                  "price": 56,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa35e5b171f6870813",
+                  "price": 98,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa1024d23e31fd0276",
+                  "price": 29,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa5cf44a961fcae309",
+                  "price": 71,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa9f51a2edbcc155c1",
+                  "price": 68,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aa69d08d4f1c2a36bd",
+                  "price": 58,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4965aa3c60f2a5427dd6a7",
+                  "price": 49,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4965aaa5938dd45ae09351",
+                  "price": 59,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa2c357bea659cbce9",
+                  "price": 20,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4965aa0ba8fd16181dacc1",
+                  "price": 49,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                }
+              ]
+        },
+        {
+            "date": "1-3-2020",
+            "ordersTotal": 121,
+            "orders": [
+                {
+                  "_id": "5e49661d5a0ab53bc0fd6337",
+                  "price": 16,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d622cdac85b664fb7",
+                  "price": 54,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d8422a31d1fce7e79",
+                  "price": 83,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d5675fbd274bedd04",
+                  "price": 28,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d978b85f6b7c838c5",
+                  "price": 80,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d43d58808958b6237",
+                  "price": 61,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d4bd90f5322f6eed8",
+                  "price": 74,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d4f8756f6120b3158",
+                  "price": 84,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d8799e34e79d60c6c",
+                  "price": 56,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661dd13bb027b1aa4fb7",
+                  "price": 99,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661def5911407b9c550c",
+                  "price": 85,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661dfd5784ad83085652",
+                  "price": 52,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d59ece3740f9bc988",
+                  "price": 80,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d9b6cba67548d72a6",
+                  "price": 100,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d78c3af7d9d613ba9",
+                  "price": 93,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661daa744379665093fc",
+                  "price": 26,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661de36432838a06b553",
+                  "price": 80,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d152823f2cd8216c2",
+                  "price": 57,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661dc472c246f33df2ae",
+                  "price": 77,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661dc7a0086fe4d09f52",
+                  "price": 46,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d0c4856d1565a024a",
+                  "price": 62,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d8a44bf3735909ea9",
+                  "price": 94,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d8fba76920de2e042",
+                  "price": 43,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d3b64a22b52a668b3",
+                  "price": 24,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d2040518058627189",
+                  "price": 57,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d786938f77a0c9a1d",
+                  "price": 52,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d40c7dcec8c48ffc9",
+                  "price": 95,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d52709a202a57e188",
+                  "price": 57,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661dc3479c0cacd064c2",
+                  "price": 25,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d4de0dc136dbeac83",
+                  "price": 19,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d973ed12e5a96968d",
+                  "price": 35,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d989445eb38f2b62e",
+                  "price": 23,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661da70c569f28393eb8",
+                  "price": 91,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661dfa5971663add0601",
+                  "price": 98,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661dcf4e4b798629ede7",
+                  "price": 67,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d1ab4910e76dcdddf",
+                  "price": 36,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661da030e249bee71aa8",
+                  "price": 42,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d1cac2c347e808fc5",
+                  "price": 41,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d7051912d5b1bcb4b",
+                  "price": 78,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661dbe36571c708e2fb5",
+                  "price": 72,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d3fd52d06e65c7046",
+                  "price": 51,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d450fbc2fa96d2419",
+                  "price": 99,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661da1c7c80476ed4ab4",
+                  "price": 56,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661dfceab1d5ce31dfc7",
+                  "price": 79,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d7e78259ff980b2c9",
+                  "price": 97,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661ddb94eac186a91972",
+                  "price": 82,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661ddefae9039b81f7c8",
+                  "price": 53,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661dbbdbd11e11e976cf",
+                  "price": 52,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d70a1016495a4b690",
+                  "price": 19,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d8441436dc73d7ae3",
+                  "price": 100,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d2473b6571a85ac79",
+                  "price": 69,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d95af8c57a5fcaae8",
+                  "price": 31,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661dd126116476f8416c",
+                  "price": 53,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d3ec3bafce5a6f6fc",
+                  "price": 20,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661df70c7880c81842bf",
+                  "price": 74,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d0cbd031c787ea763",
+                  "price": 95,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d3e590ebd5a5fba75",
+                  "price": 82,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d2cdd24e8bda0f5f0",
+                  "price": 17,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d674066fd650b6057",
+                  "price": 92,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d46e5feed144bd1e3",
+                  "price": 84,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d71daec46e1481f88",
+                  "price": 10,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d52ad779a4e9a61f5",
+                  "price": 82,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d4d64e8cb0e698643",
+                  "price": 82,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661dc68612837fa35c65",
+                  "price": 98,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d5b5607170366ecd6",
+                  "price": 28,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d4ea4a43f1d8f7d08",
+                  "price": 81,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d7ced6414482f7315",
+                  "price": 29,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661dfdc6d49cc1aeaf22",
+                  "price": 53,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d398c6a214d147fa2",
+                  "price": 59,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661df30f651b93cbd3ca",
+                  "price": 72,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d90218f87e419240b",
+                  "price": 16,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661dda725ac10e12c2db",
+                  "price": 90,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661dfc7eee69d5d2bb14",
+                  "price": 42,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d3a2b85a9c7f07afb",
+                  "price": 61,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d0c48b593a558ddcd",
+                  "price": 16,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d2a7735b629633fad",
+                  "price": 89,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d1e40cec4b51726b9",
+                  "price": 70,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661db35f59ae28bba474",
+                  "price": 20,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d62633d0b4290a4ec",
+                  "price": 69,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d32693036c2280eb3",
+                  "price": 100,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d338a17858bd57dea",
+                  "price": 63,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661dad46995f9b083610",
+                  "price": 73,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d5d5cbda1b99140a2",
+                  "price": 18,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d277aea5852efc9f4",
+                  "price": 100,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661da2fa39af8e3919fa",
+                  "price": 84,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661dd7a1c8721db29153",
+                  "price": 47,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d8b9e8c00fc26a8d6",
+                  "price": 86,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d04b31c53c13b6ac3",
+                  "price": 40,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d7ab6a2a02e55308c",
+                  "price": 76,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d7e187245769dd639",
+                  "price": 35,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661df9f4c07fc54fad08",
+                  "price": 15,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661dc2501d66673b9e3d",
+                  "price": 44,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d3ba016b2bd2d8406",
+                  "price": 85,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661ddfdf9f7665bace6b",
+                  "price": 10,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e49661d708613ca3b244210",
+                  "price": 35,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661d6b3046ee7d55439e",
+                  "price": 47,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49661dbb469481ad627de9",
+                  "price": 53,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661dc101c51104991f22",
+                  "price": 30,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d577ab7e5f41c8904",
+                  "price": 92,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e49661d7474807297ef936b",
+                  "price": 92,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e4966282833212f8d7c4044",
+                  "price": 97,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e496628beee05f017853828",
+                  "price": 30,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e496628c5a69ab2c32b6e39",
+                  "price": 71,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e496628374aca6fc3794a4e",
+                  "price": 10,
+                  "platform": "mobile",
+                  "os": "iOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e496628be839626cad1b816",
+                  "price": 29,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e496628f820e15e652e8850",
+                  "price": 89,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e496628968cbfeabd18c864",
+                  "price": 61,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e496628da1099486c782bf0",
+                  "price": 79,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49662817344530b23fcf51",
+                  "price": 66,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e496628f2d5bbfbbef084a7",
+                  "price": 24,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e4966287ec7f27ea06ae3b2",
+                  "price": 13,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49662827f353403273e9d9",
+                  "price": 73,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e496628006567d3d432c4c1",
+                  "price": 74,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e496628528707b15cd4a8f4",
+                  "price": 35,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e496628d75082b9fef45f22",
+                  "price": 38,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "paypal"
+                },
+                {
+                  "_id": "5e496628f678fce5086841f1",
+                  "price": 72,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e49662861a4594e09936a4d",
+                  "price": 13,
+                  "platform": "desktop",
+                  "os": "windows",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e496628ad5b6951bb466dc7",
+                  "price": 64,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4966284785180fe3cdc5ee",
+                  "price": 14,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "card"
+                },
+                {
+                  "_id": "5e496628f0a8597b83eb9e36",
+                  "price": 11,
+                  "platform": "mobile",
+                  "os": "android",
+                  "payment": "applePay"
+                },
+                {
+                  "_id": "5e4966284fd1be6629858b7a",
+                  "price": 100,
+                  "platform": "desktop",
+                  "os": "macOS",
+                  "payment": "applePay"
+                }
+              ]
+        }
+    ]
+}
