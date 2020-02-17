@@ -16,13 +16,13 @@ const CustomerPlatformComponent = props => {
         <div className="col-md-6">
           <BoxComponent
             description={"Desktop"}
-            number={props.applicationData.desktopSales}
+            number={props.applicationData.desktop}
           />
         </div>
         <div className="col-md-3">
           <BoxComponent
             description={"Mobile"}
-            number={props.applicationData.mobileSales}
+            number={props.applicationData.mobile}
           />
         </div>
       </div>
@@ -32,10 +32,10 @@ const CustomerPlatformComponent = props => {
           <div className="box box--large">
             <div className="box__inner">
               <span className="box--pie_label">
-                iOS <span class="box--pie__color orange"></span>
+                iOS <span className="box--pie__color orange"></span>
               </span>
               <span className="box--pie_label">
-                Android <span class="box--pie__color blue"></span>
+                Android <span className="box--pie__color blue"></span>
               </span>
               <PieChart
                 animate={true}
@@ -81,10 +81,10 @@ const CustomerPlatformComponent = props => {
           <div className="box box--large">
             <div className="box__inner">
               <span className="box--pie_label">
-                Windows <span class="box--pie__color green"></span>
+                Windows <span className="box--pie__color green"></span>
               </span>
               <span className="box--pie_label">
-                MacOS <span class="box--pie__color gray"></span>
+                MacOS <span className="box--pie__color gray"></span>
               </span>
               <PieChart
                 animate={true}

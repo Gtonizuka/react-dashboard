@@ -65,8 +65,14 @@ const BodyComponent = () => {
 
     const totalAmount = prices.reduce((a, b) => a + b, 0);
 
-    const desktopSales = platform.filter(el => el == "desktop").length;
-    const mobileSales = platform.filter(el => el == "mobile").length;
+    const { desktop, mobile } = platform.reduce(
+      (r, el) => {
+        if (el in r) r[el]++;
+
+        return r;
+      },
+      { desktop: 0, mobile: 0, android: 0 }
+    );
 
     const iOSSales = os.filter(el => el == "iOS").length;
     const androidSales = os.filter(el => el == "android").length;
@@ -81,8 +87,8 @@ const BodyComponent = () => {
     setApplicationData({
       ordersTotal,
       totalAmount,
-      desktopSales,
-      mobileSales,
+      desktop,
+      mobile,
       iOSSales,
       androidSales,
       windowsSales,
