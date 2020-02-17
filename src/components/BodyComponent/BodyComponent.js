@@ -11,100 +11,94 @@ import CustomerPlatformComponent from "../CustomerPlaformComponent/CustomerPlatf
 import PaymentTypeComponent from "../PaymentTypeComponent/PaymentTypeComponent";
 
 const BodyComponent = () => {
+  const [applicationData, setApplicationData] = useState({
+    ordersTotal: 0,
+    totalAmount: 0,
+    desktopSales: 0,
+    mobileSales: 0,
+    iOSSales: 0,
+    androidSales: 0,
+    windowsSales: 0,
+    macOSSales: 0,
+    paypalSales: 0,
+    applePaySales: 0,
+    cardSales: 0
+  });
 
-    const [applicationData, setApplicationData] = useState({
-        totalAmount: 0,
-        desktopSales: 0,
-        mobileSales: 0,
-        iOSSales: 0,
-        androidSales: 0,
-        windowsSales: 0,
-        macOSSales: 0,
-        paypalSales: 0,
-        applePaySales: 0,
-        cardSales: 0
-    })
-     
-    const [dayOfTheMonth, setDayOfTheMonth] = useState('1-1-2020')
-    const [totalDailyOrders, setTotalDailyOrders] = useState(0)
+  const [dayOfTheMonth, setDayOfTheMonth] = useState("1-1-2020");
 
-    useEffect(() => {
-      console.log('useeffect')
-      setAppState(dayOfTheMonth);
+  // Set app state on init
+  useEffect(() => {
+    setAppState(dayOfTheMonth);
+  }, []);
 
-    }, [])
+  const setAppState = date => {
+    const filtered = AppData.days.filter(data => data.date === date);
 
-    const setAppState = (date) => {
-      console.log('setAppState')
-      console.log(date, 'dateInside')
-      console.log(dayOfTheMonth)
-      const filtered = AppData.days.filter(
-          data => data.date === date
-      )
-      
-      let prices = [], platform = [], os = [], paymentPlatform = [];
-      let ordersTotal;
-      // Get all ids
-      filtered.map(
-          el => {
-              ordersTotal = el.ordersTotal
-              el.orders.map(
-                  entry => {
-                      if(entry.price) {
-                          prices.push(entry.price)
-                      }
-                      if(entry.platform) {
-                          platform.push(entry.platform)
-                      }
-                      if(entry.os) {
-                          os.push(entry.os)
-                      }
-                      if(entry.payment) {
-                          paymentPlatform.push(entry.payment)
-                      }
-                  }
-              )
-          }
-      )
-      
-      const totalAmount = prices.reduce((a, b) => a + b, 0)
+    let prices = [],
+      platform = [],
+      os = [],
+      paymentPlatform = [];
+    let ordersTotal;
+    // Get all ids
+    filtered.map(el => {
+      ordersTotal = el.ordersTotal;
+      el.orders.map(entry => {
+        if (entry.price) {
+          prices.push(entry.price);
+        }
+        if (entry.platform) {
+          platform.push(entry.platform);
+        }
+        if (entry.os) {
+          os.push(entry.os);
+        }
+        if (entry.payment) {
+          paymentPlatform.push(entry.payment);
+        }
+      });
+    });
 
-      const desktopSales = platform.filter(el => el=='desktop').length
-      const mobileSales = platform.filter(el => el=='mobile').length
+    const totalAmount = prices.reduce((a, b) => a + b, 0);
 
-      const iOSSales = os.filter(el => el=='iOS').length
-      const androidSales = os.filter(el => el=='android').length
-      const windowsSales = os.filter(el => el=='windows').length
-      const macOSSales = os.filter(el => el=='macOS').length
+    const desktopSales = platform.filter(el => el == "desktop").length;
+    const mobileSales = platform.filter(el => el == "mobile").length;
 
-      const paypalSales  = paymentPlatform.filter(el => el=='paypal').length
-      const applePaySales = paymentPlatform.filter(el => el=='applePay').length
-      const cardSales = paymentPlatform.filter(el => el=='card').length
+    const iOSSales = os.filter(el => el == "iOS").length;
+    const androidSales = os.filter(el => el == "android").length;
+    const windowsSales = os.filter(el => el == "windows").length;
+    const macOSSales = os.filter(el => el == "macOS").length;
 
-      // // set state
-      setApplicationData({
-          totalAmount,
-          desktopSales,
-          mobileSales,
-          iOSSales,
-          androidSales,
-          windowsSales,
-          macOSSales,
-          paypalSales,
-          applePaySales,
-          cardSales
-      })
+    const paypalSales = paymentPlatform.filter(el => el == "paypal").length;
+    const applePaySales = paymentPlatform.filter(el => el == "applePay").length;
+    const cardSales = paymentPlatform.filter(el => el == "card").length;
 
-
-
-      setTotalDailyOrders(ordersTotal)
-    }
+    // // set state
+    setApplicationData({
+      ordersTotal,
+      totalAmount,
+      desktopSales,
+      mobileSales,
+      iOSSales,
+      androidSales,
+      windowsSales,
+      macOSSales,
+      paypalSales,
+      applePaySales,
+      cardSales
+    });
+  };
 
   const getCalendarDate = datePicked => {
-      let formatted_date = datePicked.getMonth() +1 +"-" + datePicked.getDate() + "-" + datePicked.getFullYear();
-      setDayOfTheMonth(formatted_date)
-      console.log(formatted_date, 'DATEE')
-      setAppState(formatted_date);
+    let formatted_date =
+      datePicked.getMonth() +
+      1 +
+      "-" +
+      datePicked.getDate() +
+      "-" +
+      datePicked.getFullYear();
+    setDayOfTheMonth(formatted_date);
+    setAppState(formatted_date);
   };
 
   let monthTotal = 0;
@@ -114,16 +108,13 @@ const BodyComponent = () => {
       <header className="App-header">
         <h1>January 2020 metrics</h1>
         {AppData.days.map(data => {
-            monthTotal = monthTotal + data.ordersTotal
+          monthTotal = monthTotal + data.ordersTotal;
         })}
         <h2>Total number of orders for January 2020: {monthTotal}</h2>
       </header>
       <DatePickerCustomComponent getCalendarDate={getCalendarDate} />
-      
-      <BasicRevComponent date={dayOfTheMonth} nr_of_orders={totalDailyOrders} applicationData={applicationData}/>
-      <CustomerPlatformComponent applicationData={applicationData} />
-        <PaymentTypeComponent applicationData={applicationData}/>
-      {/* <Router>
+      <h3>Data for: {dayOfTheMonth}</h3>
+      <Router>
         <div className="nav">
           <ul className="nav__navbar">
             <li>
@@ -136,11 +127,33 @@ const BodyComponent = () => {
               <Link to="/payment">PaymentTypeComponent</Link>
             </li>
           </ul>
-          <Route path="/" exact component={BasicRevComponent} />
-          <Route path="/customer" component={CustomerPlatformComponent} />
-          <Route path="/payment" component={PaymentTypeComponent} />
+          <Route
+            path="/"
+            exact
+            render={props => (
+              <BasicRevComponent {...props} applicationData={applicationData} />
+            )}
+          />
+          <Route
+            path="/customer"
+            render={props => (
+              <CustomerPlatformComponent
+                {...props}
+                applicationData={applicationData}
+              />
+            )}
+          />
+          <Route
+            path="/payment"
+            render={props => (
+              <PaymentTypeComponent
+                {...props}
+                applicationData={applicationData}
+              />
+            )}
+          />
         </div>
-      </Router> */}
+      </Router>
     </div>
   );
 };
