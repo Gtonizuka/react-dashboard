@@ -65,6 +65,8 @@ const BodyComponent = () => {
 
     const totalAmount = prices.reduce((a, b) => a + b, 0);
 
+    // Avoid multiple loops inside same object
+
     const { desktop, mobile } = platform.reduce(
       (r, el) => {
         if (el in r) r[el]++;
@@ -103,6 +105,7 @@ const BodyComponent = () => {
     });
   };
 
+  // On calendar change
   const getCalendarDate = datePicked => {
     let formatted_date =
       datePicked.getMonth() +
