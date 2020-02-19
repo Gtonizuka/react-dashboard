@@ -7,7 +7,7 @@ const FooterComponent = props => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h2>Mirko GGarozzo</h2>
+            <h2>Mirko Garozzo</h2>
           </div>
         </div>
       </div>

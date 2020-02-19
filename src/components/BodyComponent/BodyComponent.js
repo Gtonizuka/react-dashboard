@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 import Route from "react-router-dom/Route";
 
 import "./BodyComponent.scss";
@@ -131,25 +131,25 @@ const BodyComponent = () => {
           <div className="row no-gutters">
             <div className="col">
               <span className="nav-item">
-                <Link to="/">
+                <NavLink to="/" exact activeClassName="active">
                   <AccountBalanceWalletIcon /> Basic Revenue
-                </Link>
+                </NavLink>
               </span>
             </div>
             <div className="col">
               {" "}
               <span className="nav-item">
-                <Link to="/customer">
+                <NavLink to="/customer" activeClassName="active">
                   <DevicesIcon /> Customer Platform
-                </Link>
+                </NavLink>
               </span>
             </div>
             <div className="col">
               {" "}
               <span className="nav-item">
-                <Link to="/payment">
+                <NavLink to="/payment" activeClassName="active">
                   <PaymentIcon /> Payments
-                </Link>
+                </NavLink>
               </span>
             </div>
           </div>

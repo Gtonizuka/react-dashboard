@@ -1,17 +1,28 @@
 // Datepicker
 
 .datepicker--label {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 // UI icons
 
 .nav-item .MuiSvgIcon-root {
-    display: block;
-    font-size: 3em;
-    margin-bottom: 10px;
+  display: block;
+  font-size: 3em;
+  margin-bottom: 10px;
 }
 
 a {
-    color: black;
+  color: black;
+}
+
+// Nav
+
+.nav-item {
+  a {
+    text-decoration: none;
+    &.active {
+      text-decoration: underline;
+    }
+  }
 }
